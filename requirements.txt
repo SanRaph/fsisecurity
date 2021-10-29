@@ -102,7 +102,6 @@ sqlparse==0.4.1
 systemd-python==234
 testresources==2.0.1
 urllib3==1.26.6
-usb-creator==0.3.7
 virtualenv==20.4.7
 virtualenv-clone==0.5.4
 wadllib==1.3.3
