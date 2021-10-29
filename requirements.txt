@@ -83,7 +83,6 @@ PyQt5-sip==12.9.0
 PyQt5-stubs==5.15.2.0
 pyRFC3339==1.1
 PySide2==5.15.2
-python-apt==2.0.0+ubuntu0.20.4.5
 python-dateutil==2.7.3
 python-debian===0.1.36ubuntu1
 python-decouple==3.4
