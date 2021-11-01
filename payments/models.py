@@ -54,6 +54,7 @@ class Account(models.Model):
 class Transfer(models.Model):
     Amount = models.DecimalField(max_digits=6, decimal_places=2, blank=False)
     DebitAccount = models.CharField(max_length=225, blank=False)
+    CreditAccount = models.CharField(max_length=225, blank=False)
     Narration = models.CharField(max_length=225, blank=False)
     Fee = models.DecimalField(max_digits=6, decimal_places=2, blank=False)
     ValueDate = models.CharField(max_length=225, blank=False)

@@ -3,7 +3,7 @@ from django.urls import path, include
 from .views import AccountViewSet, TransferViewSet
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register('openaccount', AccountViewSet, basename='openaccount')
+router.register('account', AccountViewSet, basename='account')
 router.register('transfer', TransferViewSet, basename='transfer')
 
 urlpatterns = [

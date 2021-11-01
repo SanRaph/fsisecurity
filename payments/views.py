@@ -74,7 +74,7 @@ class TransferViewSet(viewsets.ModelViewSet):
         sandbox_key = 'FLXsdT64DqLYPp13dP2hSHDGSpMjeoMH1635335604'
         my_headers = {'sandbox-key': sandbox_key}
         try:
-            serializer = AccountSerializer(data=request.data)
+            serializer = TransferSerializer(data=request.data)
             if serializer.is_valid(raise_exception=True):
                 my_request = requests.post('https://fsi.ng/api/heritagebank/transfers/FundsTransfer/Intra',
                                            data=serializer.validated_data, headers=my_headers)
